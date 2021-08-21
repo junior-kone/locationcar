@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+#entete{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50%;
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;
+	z-index: 1;
+}
+.video_entete{
+	left: 0;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+	height: 100%;
+	z-index: 0;
+}
+
+.nomsite{
+	font-size: 50px;
+	font-family: 'aguafina-script';
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+#formauto{
+	position: relative;
+	text-align: center;
+	border: 1px solid white;
+	width: 70%; min-height: 10%;
+	border-left: none; border-right: none;
+	margin-left: auto; margin-right: auto;
+	padding: 3%;
+	background-color: rgb(000,000, 000,0.2);
+}
+
+#motcle{
+	width: 300px; height: 30px;
+	border: none; padding-left: 2px;
+	}
+.btfind{
+	width: 300px; height: 30px;
+	 border: none; background-color: greenyellow;
+}
+
+
+#articles{
+	width: 70%;
+	margin-left: auto; margin-right: auto;
+	padding: 2%;
+	vertical-align: middle;
+
+}
+
+#auto{
+	border: 1px solid gray;
+	width: 150px;
+	min-height: 200px;
+	margin: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+#auto img{
+	margin: 5px;
+	width: 130px;
+	height: 100px;
+
+}
